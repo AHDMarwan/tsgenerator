@@ -132,7 +132,7 @@ else:
                 ("LEFTPADDING", (0,0), (-1,-1), 6), ("RIGHTPADDING", (0,0), (-1,-1), 6),
                 ("TOPPADDING", (0,0), (-1,-1), 8), ("BOTTOMPADDING", (0,0), (-1,-1), 8)
             ]))
-            calc_table = Table(course_calc_data, colWidths=[50*mm,30*mm,30*mm,30*mm,60*mm,60*mm,60*mm])
+            calc_table = Table(course_calc_data, colWidths=[50*mm,30*mm,30*mm,30*mm,30*mm,30*mm,30*mm])
             calc_table.setStyle(TableStyle([
                 ("BACKGROUND", (0,0), (-1,0), HEADER_BG), ("TEXTCOLOR", (0,0), (-1,0), HEADER_TEXT),
                 ("GRID", (0,0), (-1,-1), 0.25, GRID_COLOR),
